@@ -3,7 +3,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/firefox-icon.png') {
-        myImage.setAttribute('src', 'images/firefox2.png');
+        myImage.setAttribute('src', 'https://static.wikia.nocookie.net/ninja-encyclopedia/images/8/88/Nine-Tailed_Demon_Fox.png/revision/latest?cb=20091221054403');
     } else {
         myImage.setAttribute('src', 'images/firefox-icon.png');
     }
